@@ -32,7 +32,12 @@ body {
   min-height: 100vh;
 }
 
-Navbar {
+.nav-bar {
   height: 90px;
   background-color: #21222A;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
