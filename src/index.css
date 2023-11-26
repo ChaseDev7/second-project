@@ -66,5 +66,13 @@ body {
 }
 
 .main-section {
+  color: white;
   margin-top: 90px;
+  background-color: #282D35;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
