@@ -40,4 +40,31 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.react-logo-1 {
+  width: 29px;
+  height: 29px;
+}
+
+.logo-title {
+  margin-left: 10px;
+  color: #61DAFB;
+}
+
+.project-name {
+  color: white;
+  margin-right: 20px;
+}
+
+.main-section {
+  margin-top: 90px;
 }

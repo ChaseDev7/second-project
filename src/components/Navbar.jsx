@@ -5,10 +5,10 @@ export default function Navbar() {
     <>
       <div className="nav-bar">
         <div className="logo-container">
-          <img src={reactLogo1} />
-          <h2 className="logo-title">React Facts</h2>
+          <img className="react-logo-1" src={reactLogo1} />
+          <h2 className="logo-title">ReactFacts</h2>
         </div>
-        <h1>This is the Navbar</h1>
+        <div className="project-name">React Course - Project 1</div>
       </div>
     </>
   )
