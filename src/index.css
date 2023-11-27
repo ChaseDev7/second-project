@@ -63,6 +63,7 @@ body {
 .project-name {
   color: white;
   margin-right: 20px;
+  font-weight: 700;
 }
 
 .main-section {
@@ -70,13 +71,32 @@ body {
   margin-top: 90px;
   background-color: #282D35;
   display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  background-image: url("./images/reactjs-icon 2.png");
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 
 .fun-facts {
+  padding-top: 20px;
   margin-left: 25px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.main-list-item {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.main-list-item::marker {
+  color: #61DAFB;
+  font-size: 20px;
 }
